@@ -1,8 +1,11 @@
 {
   "name" : "pingles-msgpack-rpc",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "description" : "node-msgpack-rpc is an implementation of the Msgpack-RPC protocol specification for node.js",
   "main" : "./lib/msgpack-rpc",
   "repository": { "type": "git", "url": "https://github.com/pingles/node-msgpack-rpc" },
-  "directories": { "lib": "./lib" }
+  "directories": { "lib": "./lib" },
+  "dependencies" : {
+    "msgpack2": "0.1.4"
+  }
 }
